@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indianred;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.Input {
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid indianred;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+h2 {
+    margin-bottom: 10px;
+    color: indianred;
+    text-align: center;
+} 
+label {
+    display: block;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+input[type="text"], .Input input[type="number"]{
+    width: 100%;
+    border: solid;
+    border-color: indianred;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button[type="submit"], button[type="button"] { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 5px 10px; 
+    background-color:indianred; 
+    color:aliceblue; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    display: block; 
+    margin:  0 auto; 
+    margin-top: 10px;
+    text-align: center;
+}
+.cari {
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid indianred;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.belum_dibaca {
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid indianred;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.selesai_dibaca {
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid indianred;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.container { 
+    width: 80%; 
+    margin: 0 auto; 
+}
+h3 {
+    margin-bottom: auto;
+    color:black;
+    text-size-adjust: 20px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.book-entry { 
+    border: 1.5px solid indianred; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    background-color: aliceblue;
+}
+.book-title { 
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+button { 
+    padding: 5px 10px; 
+    margin-right: 20px; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer;
+    color: aliceblue;
+    background-color: indianred;
+}
+/* button.finish-reading { 
+    background-color:darkseagreen; 
+} 
+button.delete-book { 
+    background-color:crimson; 
+}
+button.unfinish-reading {
+    background-color:cornflowerblue; 
+} */
