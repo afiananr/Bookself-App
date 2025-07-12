@@ -13,16 +13,21 @@ Project ini adalah website sederhana yang dirancang untuk mengelola daftar buku,
 - Hapi.js
 - Node.js
 
-## 📸 Tampilan Aplikasi
+## 📸 Tampilan Website
 
 <p align="center">
-  <img src="screenshots/login.png" alt="Login" width="230"/>
-  <img src="screenshots/register.png" alt="Register" width="230"/>
-  <img src="screenshots/home.png" alt="Home" width="230"/>
+  <img src="screenshots/Screenshot 2025-07-12 174019.png" alt="website" width="800"/>
 </p>
 
-## 🔧 Konfigurasi Firebase
+## 🔧 Pengecekan API
 
 <p align="center">
-  <img src="screenshots/authfirebase.png" alt="Login" width="690" align="center"/>
+<img src="screenshots/Screenshot 2025-07-12 174837.png" alt="create" width="800"/>
 </p>
+<p align="center">
+<img src="screenshots/Screenshot 2025-07-12 174908.png" alt="read" width="800"/>
+</p>
+<p align="center">
+<img src="screenshots/Screenshot 2025-07-12 175025.png" alt="delete" width="800"/>
+</p>
+  
