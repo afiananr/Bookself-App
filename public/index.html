@@ -16,6 +16,7 @@
 
     <main>
       <div class="form-section">
+
         <section class="Input">
           <h2>Tambah Buku Baru</h2>
           <form id="bookForm" data-testid="bookForm">
@@ -32,18 +33,33 @@
               <input id="bookFormYear" type="number" required data-testid="bookFormYearInput" />
             </div>
             <div>
-              <label for="bookFormIsComplete">Selesai dibaca</label>
-              <input
-                id="bookFormIsComplete"
-                type="checkbox"
-                data-testid="bookFormIsCompleteCheckbox"
-              />
+              <label for="bookFormSummary">Ringkasan</label>
+              <textarea id="bookFormSummary" data-testid="bookFormSummaryInput"></textarea>
+            </div>
+            <div>
+              <label for="bookFormPublisher">Penerbit</label>
+              <input id="bookFormPublisher" type="text" data-testid="bookFormPublisherInput" />
+            </div>
+            <div>
+              <label for="bookFormPageCount">Jumlah Halaman</label>
+              <input id="bookFormPageCount" type="number" required data-testid="bookFormPageCountInput" />
+            </div>
+            <div>
+              <label for="bookFormReadPage">Halaman Dibaca</label>
+              <input id="bookFormReadPage" type="number" required data-testid="bookFormReadPageInput" />
+            </div>
+            <div>
+              <label for="bookFormReading">Sedang Dibaca?</label>
+              <input id="bookFormReading" type="checkbox" data-testid="bookFormReadingCheckbox" />
             </div>
             <button id="bookFormSubmit" type="submit" data-testid="bookFormSubmitButton">
               Masukkan Buku ke Rak <span>Belum selesai dibaca</span>
             </button>
           </form>
         </section>
+      </div>
+
+      <div class="bookshelf-section">
 
         <section class="cari">
           <h2>Cari Buku</h2>
@@ -55,9 +71,7 @@
             </button>
           </form>
         </section>
-      </div>
-
-      <div class="bookshelf-section">
+        
         <section class="belum_dibaca">
           <h2>Belum selesai dibaca</h2>
           <div id="incompleteBookList" data-testid="incompleteBookList">
